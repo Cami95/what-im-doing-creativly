@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="css/style.css" />
     <title>My Fresh Start</title>
   </head>
 
@@ -68,21 +68,6 @@
       <span class="name">Camille Johnson</span>
     </p>
 
-    <script>
-      function exploreButton() {
-        let firstName = prompt("What is your first name?");
-        let lastName = prompt("What is your last name?");
-        let fullName = firstName + " " + lastName;
-
-        let h1 = document.querySelector("h1");
-        h1.innerHTML =
-          "Hey there " +
-          fullName +
-          "! Let me show you what I have been up to.. ";
-      }
-
-      let buttonElement = document.querySelector("button");
-      buttonElement.addEventListener("click", exploreButton);
-    </script>
+    <script src="javascript/index.js"></script>
   </body>
 </html>
