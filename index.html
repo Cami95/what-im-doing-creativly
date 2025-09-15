@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>My Fresh Start</title>
+  </head>
+
+  <body>
+    <h1>
+      🍕🍕🍕
+      <br />
+      ok everybody get ready...
+      <strong class="back">I'm Back!!</strong>
+    </h1>
+
+    <h2>
+      I am sorry that I have been gone for a while, I was dealing with some
+      unforseen computer issuse. But I'm back and ready to
+      <strong class="intro">do more and learn more!</strong>
+    </h2>
+
+    <strong class="list">
+      <ul>
+        <li>
+          🩰 Take more Dance Classes
+          <p>
+            Going to all the fun dance classes that I can and places like:
+            Studio K, Exchange dance academy, and more!
+          </p>
+        </li>
+        <li>
+          💪🏾 Take more Workout Classes
+          <p>
+            Keep trying to get to Adult Gymnastics, arieal classes, and I want
+            to find a barre class!
+          </p>
+        </li>
+        <li>
+          🚀 Go on more adventures/Exploring new places
+          <p>
+            I want to start traveling more to places like Washington State,
+            Maine, and New Orleans for
+            <span class="date">
+              Mardi Gras on Tuesday, February 17, 2026!
+            </span>
+          </p>
+        </li>
+        <li>
+          🎨 Doing more creative things!
+          <p>
+            I will continue to go to piano class and practice
+            <span class="inspiration">
+              <strong>Every.Single.Day.Homie.</strong>
+            </span>
+            Along with crochet🧶🪝and taking up hooping and Shuffle dance again.
+            I can't forget baking some yummy cakes 🍰!
+          </p>
+        </li>
+      </ul>
+    </strong>
+
+    <button>Check out what I did!!</button>
+
+    <p>
+      This page was coded by
+      <span class="name">Camille Johnson</span>
+    </p>
+
+    <script>
+      function exploreButton() {
+        let firstName = prompt("What is your first name?");
+        let lastName = prompt("What is your last name?");
+        let fullName = firstName + " " + lastName;
+
+        let h1 = document.querySelector("h1");
+        h1.innerHTML =
+          "Hey there " +
+          fullName +
+          "! Let me show you what I have been up to.. ";
+      }
+
+      let buttonElement = document.querySelector("button");
+      buttonElement.addEventListener("click", exploreButton);
+    </script>
+  </body>
+</html>

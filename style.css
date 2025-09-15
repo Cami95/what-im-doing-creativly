@@ -1,0 +1,84 @@
+body {
+    text-align: center;
+    background-color: antiquewhite;
+}
+
+h1 {
+    line-height: 48px;
+    margin: 0;
+    color: blue;
+    font-family: monospace;
+}
+
+h2 {
+    font-family: monospace;
+    padding: 10px 0;
+    border-radius: 10px;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+p {
+    font-size: 18px;
+    font-family: monospace;
+    font-weight: lighter;
+}
+
+.back {
+    text-decoration: underline;
+    font-size: 34px;
+}
+
+.intro {
+    text-decoration: underline;
+    color: purple;
+}
+
+.list {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+    font-size: 20px;
+    padding: 10px 0;
+    border-radius: 10px;
+    max-width: 500px;
+    margin: 0 auto;
+    font-family: monospace;
+}
+
+ul:hover {
+    background-color: bisque;
+}
+
+button {
+    display: block;
+    margin: auto;
+    padding: 20px 16px;
+    border-radius: 30px;
+    border: 2px solid black;
+    color: white;
+    background-color: blue;
+    font-family: monospace;
+    transition: all 200ms ease;
+}
+
+button:hover {
+    color: blue;
+    background-color: white;
+    cursor: pointer;
+}
+
+.name {
+    color: blue;
+}
+
+.inspiration {
+    color: blue;
+}
+
+.date {
+    text-decoration: underline;
+    color: blueviolet;
+}
